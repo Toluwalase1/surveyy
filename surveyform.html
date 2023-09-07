@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="eng"> 
+    <head>    
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="surveyform.css">
+        <title>Survey Form</title> 
+    </head>
+    <body>
+        <div class="container">
+        <h1 id="title">Market Research Survey Form</h1>
+        <p id="description">
+            Please take out time to fill this form in order to improve our upcoming products
+        </p>
+            <form method="get" id="survey-form">
+                <fieldset>
+                    <label for="name" id="name-label"> Name <input type="text" id="name" required placeholder="Name"></label>
+                <label for="email" id="email-label">Email <input type="email" name="email" id="email" placeholder="Email" required></label>
+                <label for="age" > Age(optional) <input type="number" min="10" max="100" placeholder="Age"></label>
+                <label for="number" id="number-label"> How many times do you drink coke a month? <input type="number" id="number" max="100" min="0" placeholder="1"></label>
+                <label for="dropdown"> How often do you use our products? <select name="products usage" id="dropdown"> <option value="0">select option</option>
+                <option value="4">very often</option>
+            <option value="3">often</option>
+        <option value="2">rare</option>
+    <option value="1">never</option></select></label>
+    <p>Would you recommend any of our products to a friend?</p>
+<label for="Definitely"> Definitely <input type="radio" name="recommend" id="Definitely" value="3"></label>
+<label>Maybe <input type="radio" name="recommend" value="2"></label>
+<label>Not sure <input type="radio" name="recommend" value="1"></label>
+            </fieldset>
+            <fieldset>
+                <p>What would you like to see improved?(check all that apply)</p>
+                    <label for="Packaging"> Packaging <input type="checkbox" value="1" id="Packaging"></label>
+                    <label for="Customer-service"> Customer-service <input type="checkbox" value="2" id="Customer-service"></label>
+                    <label for="Advertisement"> Advertisement <input type="checkbox" value="3" id="Advertisement"></label>
+                    <label for="User-engagement"> User-engagement <input type="checkbox" value="4" id="User-engagement"></label>
+                    <label for="Event-sponshorship"> Event-sponshorship <input type="checkbox" value="5" id="Event-sponshorship"></label>
+                    <label for="Product-variety"> Product-variety <input type="checkbox" value="6" id="Product-variety"></label>
+                    <label for="International-distribution">International-distribution <input type="checkbox" value="7" id="International-distribution"></label>
+                    <p>
+                        Any comment or suggestion for us?
+                        <textarea name="advice" id="advice" cols="30" rows="3" placeholder="I suggest you improve on these things.........."></textarea>
+                    </p>
+            </fieldset>
+            <input type="submit" value="submit" class="submit" id="submit">
+            </form>
+        </div>
+    </body>
+</html>

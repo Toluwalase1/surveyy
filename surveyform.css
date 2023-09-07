@@ -1,0 +1,26 @@
+body{
+    background-image: url(https://hyperpix.net/wp-content/uploads/2020/05/coca-cola-logo-font-download.jpg); background-size: 100%; opacity: 90%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.container{ width:70%;
+margin: 0 auto;
+background-color: rgb(53, 50, 50);}
+
+.submit{ display: block;
+    width: 30%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: black;
+    border-color: red;
+    min-width: 150px;
+    color: white;}
+    label{ display: block;}
+    input{
+    display: block;}
+#advice{vertical-align: middle;}
+fieldset{ border: none;}
+#email{ min-width: 250px;}
+#name{min-width: 250px;}
