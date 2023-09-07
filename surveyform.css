@@ -4,7 +4,7 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
-.container{ width:70%;
+.container{ width:80%;
 margin: 0 auto;
 background-color: rgb(53, 50, 50);}
 
@@ -22,5 +22,5 @@ background-color: rgb(53, 50, 50);}
     display: block;}
 #advice{vertical-align: middle;}
 fieldset{ border: none;}
-#email{ min-width: 250px;}
-#name{min-width: 250px;}
+#email{width: 190px;}
+#name{width: 190px;}
